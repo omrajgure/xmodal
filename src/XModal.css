@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
 }
-.modalContainer {
+.modal {
   width: 500px;
   height: 550px;
   border-radius: 12px;
@@ -22,17 +22,17 @@
   margin-top: 15px;
 }
 
-.modalBody form {
+.modal-content form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.modalBody label h3 {
+.modal-content label h3 {
   margin: 12px 0;
 }
 
-.modalBody input {
+.modal-content input {
   width: 360px;
   height: 35px;
   border: 2px solid rgba(195, 194, 194, 0.764);
@@ -42,7 +42,7 @@
   outline: none;
 }
 
-.submit {
+.submit-button {
   height: 38px;
   width: 90px;
   border-radius: 4px;

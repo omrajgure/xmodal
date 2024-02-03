@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import XModal from "./components/XModal/XModal";
+import XModal from "./XModal.js";
 
 function App() {
   const [isOpenModal, setIsOpenModal] = useState(false);
